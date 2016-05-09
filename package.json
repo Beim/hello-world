@@ -1,0 +1,27 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "hello-world im ..eeee  nobody hello again again...",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Beim/hello-world.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Beim/hello-world/issues"
+  },
+  "homepage": "https://github.com/Beim/hello-world#readme",
+  "dependencies": {
+    "co-body": "^4.2.0",
+    "koa": "^1.2.0",
+    "koa-router": "^5.4.0",
+    "koa-session": "^3.3.1",
+    "koa-static": "^2.0.0",
+    "socket.io": "^1.4.6"
+  }
+}
