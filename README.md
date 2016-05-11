@@ -1,6 +1,6 @@
 # hello-world      
 
-my own module                  
+simple  module                  
 
 need mongo + node(v4+)
 
