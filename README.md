@@ -1,6 +1,6 @@
-# hello-world\n
-my own module\n
-need mongo + node(v4+)\n
+# hello-world
+my own module
+need mongo + node(v4+)
 usage:
 git clone
 npm install
