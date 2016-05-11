@@ -24,7 +24,6 @@ socket(server)
 /*
 	listen on privided port, on all netwok interfaces
 */
-
 server.listen(port)
 server.on('error', onError)
 server.on('listening', onListening)
