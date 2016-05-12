@@ -1,8 +1,14 @@
-# hello-world
-my own module
+# hello-world      
+
+simple  module                  
+
 need mongo + node(v4+)
+
 usage:
-git clone
+
+git clone https://github.com/Beim/hello-world.git
+
 npm install
+
 npm start
 
