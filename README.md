@@ -12,3 +12,6 @@ npm install
 
 npm start
 
+babel : 
+	npm run build
+

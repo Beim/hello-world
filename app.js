@@ -5,7 +5,7 @@ var parser = require('koa-bodyparser')
 var json = require('koa-json')
 var path = require('path')
 var session = require('koa-session')
-var logger = require('koa-logger')
+// var logger = require('koa-logger')
 var koaStatic = require('koa-static')
 var db = require('./mongo.js')
 // var views = require('koa-views')
@@ -40,8 +40,8 @@ koaRouter.use('/users', users.routes(), users.allowedMethods())
 
 app.use(koaRouter.routes())
 
-app.on('error', function (err, ctx) {
-  logger.error('server error', err, ctx)
-})
+// app.on('error', function (err, ctx) {
+//   logger.error('server error', err, ctx)
+// })
 
 module.exports = app
