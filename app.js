@@ -22,7 +22,14 @@ var users = require('./routes/users')
 app.keys = ['scret', 'keys'] //	key of session
 const opts = {'maxAge': 60 * 60 * 1000}//	maxAge of session
 app.use(session(app, opts))
-app.use(parser())
+app.use(parser({
+	// detectJSON: function (ctx) {
+	//     return /\.json$/i.test(ctx.path);
+	// },
+	extendTypes: {
+	    json: ['application/x-javascript'] // will parse application/x-javascript type body as a JSON string
+	  }
+}))
 app.use(json())
 // app.use(logger())
 
